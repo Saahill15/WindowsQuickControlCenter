@@ -1,0 +1,22 @@
+{
+  "launch_items": [
+    {
+      "name": "VS Code",
+      "path": "code",
+      "args": "",
+      "kind": "app"
+    },
+    {
+      "name": "Projects Folder",
+      "path": "%USERPROFILE%\\Projects",
+      "args": "",
+      "kind": "folder"
+    },
+    {
+      "name": "PowerShell",
+      "path": "powershell.exe",
+      "args": "",
+      "kind": "app"
+    }
+  ]
+}

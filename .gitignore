@@ -1,0 +1,48 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Build and release artifacts
+build/
+dist/
+installer/output/
+release-output/
+*.spec
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.yaml
+*.local.yml
+secrets/
+credentials/
+credentials.json
+credentials.*.json
+*credentials*.json
+*.token
+*.secret
+*.credentials
+*private*key*
+*.key
+*.pem
+!quickcontrol/update_public_key.pem
+*.p12
+*.pfx
+.ssh/
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+id_ed25519_sk
+id_ecdsa_sk
+
+# Logs and operating-system files
+*.log
+Thumbs.db
+.DS_Store

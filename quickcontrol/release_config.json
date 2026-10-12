@@ -1,0 +1,5 @@
+{
+  "manifest_url": "",
+  "check_on_startup": true,
+  "timeout_seconds": 4
+}
