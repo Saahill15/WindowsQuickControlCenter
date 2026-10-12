@@ -69,9 +69,9 @@ if errorlevel 1 (
   --distpath "%CD%\dist" ^
   --workpath "%CD%\build\pyinstaller" ^
   --specpath "%CD%\build\spec" ^
-  --add-data "quickcontrol\config.json;quickcontrol" ^
-  --add-data "quickcontrol\release_config.json;quickcontrol" ^
-  --add-data "quickcontrol\update_public_key.pem;quickcontrol" ^
+  --add-data "%CD%\quickcontrol\config.json;quickcontrol" ^
+  --add-data "%CD%\quickcontrol\release_config.json;quickcontrol" ^
+  --add-data "%CD%\quickcontrol\update_public_key.pem;quickcontrol" ^
   --collect-all psutil --collect-all cryptography ^
   main.py
 if errorlevel 1 (
